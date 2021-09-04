@@ -27,7 +27,7 @@ module.exports = {
         // Include GTM in development.
         //
         // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: true,
+        includeInDevelopment: false,
   
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
@@ -38,12 +38,6 @@ module.exports = {
             pageType: window.pageType,
           }
         },
-  
-        // Specify optional GTM environment details.
-        gtmAuth: "1wWJJhX8849qI7CUF9vPLA",
-        gtmPreview: "env-1",
-        dataLayerName: "dataLayer",
-  
         // Name of the event that is triggered
         // on every Gatsby route change.
         //
