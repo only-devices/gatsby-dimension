@@ -10,14 +10,14 @@ const SecondPage = () => (
     <div>
       <form action="/submit">
         <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" value="data-cs-encrypt" data-cs-encrypt />
+        <input type="text" id="fname" name="fname" data-cs-encrypt />
         <input type="submit" value="Submit" />
       </form>
     </div>
     <div class='contains-PII'>
       Div starts here.
       <p data-cs-mask><br />A paragraph within said div. (data-cs-mask)</p>
-      <img src="https://content.sportslogos.net/logos/53/75/full/6509_seattle_mariners-alternate-2015.png" alt="something" data-cs-encrypt />
+      <img src="https://content.sportslogos.net/logos/53/75/full/6509_seattle_mariners-alternate-2015.png" width="400" alt="something" data-cs-encrypt />
     </div>
 
     <Link to="/">Go back to the homepage</Link>
