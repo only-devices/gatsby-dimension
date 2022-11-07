@@ -9,8 +9,8 @@ const SecondPage = () => (
     <p data-cs-encrypt>This is a paragraph. (data-cs-encrypt)</p>
     <div>
       <form action="/submit">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" data-cs-encrypt />
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName-input" name="firstName" data-cs-encrypt />
         <input type="submit" value="Submit" />
       </form>
     </div>
